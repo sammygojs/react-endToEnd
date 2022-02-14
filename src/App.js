@@ -1,4 +1,5 @@
 import './App.css';
+import NameList from './components/NameList';
 // import Greet from './components/greet'
 // import Counter from './components/counter'
 // import Welcome from './components/welcome'
@@ -18,7 +19,8 @@ function App() {
       <Classclick/>
       <EventBind/> */}
       {/* <ParentComponent/> */}
-      <UserGreeting/>
+      {/* <UserGreeting/> */}
+      <NameList/>
     </div>
   );
 }
